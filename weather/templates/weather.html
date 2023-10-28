@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kenyan Weather App</title>
+</head>
+<body>
+    <h1>Kenyan Weather App</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Get Weather</button>
+    </form>
+
+    {% if result %}
+        <h2>Weather Data:</h2>
+        <p>Location: {{ result.location }}</p>
+        <p>Temperature: {{ result.temperature }} °C</p>
+        <p>Humidity: {{ result.humidity }} %</p>
+        <p>Conditions: {{ result.conditions }}</p>
+    {% endif %}
+
+    <h2>Recent Weather Data:</h2>
+    <ul>
+        {% for data in weather_data %}
+            <li>
+                Location: {{ data.location }}, Temperature: {{ data.temperature }} °C, Humidity: {{ data.humidity }} %, Conditions: {{ data.conditions }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
