@@ -33,7 +33,7 @@ The Kenyan Weather App is a powerful Django-based web application that provides 
 
 ## Contribution
 
-We welcome contributions and suggestions to make the Kenyan Weather App even better. If you have ideas, bug reports, or feature requests, feel free to open an issue or submit a pull request.
+I welcome contributions and suggestions to make the Kenyan Weather App even better. If you have ideas, bug reports, or feature requests, feel free to open an issue or submit a pull request.
 
 ## Author
 
