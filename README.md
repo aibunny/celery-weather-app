@@ -39,5 +39,5 @@ I welcome contributions and suggestions to make the Kenyan Weather App even bett
 
 - aibunny
 - Blog: [Medium Blog](https://aibunny.medium.com/django-and-celery-supercharging-your-web-app-with-asynchronous-tasks-7ad989848d08)
-- Personal Blog: [Your Personal Blog](https://yourpersonalblog.com](https://www.theaibunny.com/django-and-celery)
+- Personal Blog: [Your Personal Blog](https://www.theaibunny.com/django-and-celery)
 
