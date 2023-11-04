@@ -25,7 +25,7 @@ The Kenyan Weather App is a powerful Django-based web application that provides 
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/yourusername/kenyan-weather-app.git`
+1. Clone this repository: `git clone https://github.com/aibunny/kenyan-weather-app.git`
 2. Install the required packages: `pip install -r requirements.txt`
 3. Set up Celery and configure your message broker (e.g., Redis).
 4. Run the development server: `python manage.py runserver`
